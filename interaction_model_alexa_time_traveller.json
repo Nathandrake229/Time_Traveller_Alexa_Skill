@@ -1,0 +1,76 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "the time traveller",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "to stop",
+                        "to quit",
+                        "to exit"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what can he do",
+                        "what can you do",
+                        "how can he help",
+                        "how can you help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "to stop",
+                        "to quit",
+                        "to exit"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE"
+                        },
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "tell me a fact",
+                        "tell me a historical fact",
+                        "tell me {number} facts",
+                        "tell me {number} historical facts",
+                        "tell me a fact about {date}",
+                        "tell me a historical fact about {date}",
+                        "whats special about {date}",
+                        "what happened {date} in history",
+                        "tell me {number} facts about {date}",
+                        "what happened on {date}",
+                        "what happened on {date} in history",
+                        "what happened {date}",
+                        "what incident took place on {date}",
+                        "what incidents took place on {date}",
+                        "tell me what incident took place on {date}",
+                        "tell me what incident took place on {date}",
+                        "tell me what historical incidents took place on {date}",
+                        "tell me what historical incidents took place on {date}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
